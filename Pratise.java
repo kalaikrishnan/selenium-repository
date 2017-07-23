@@ -39,12 +39,12 @@ for (WebElement eachOption : collection) {
 	if (eachOption.getText().startsWith("E"))// .charAt(0)=='E')
 	{flag = flag +1;
 	 if (flag ==2){
-		 {
+
 		ban.selectByVisibleText(eachOption.getText());
 		System.out.println("The countries selected is " + eachOption.getText());
 		
 		break;
-		 }
+
 }
 }
 }
